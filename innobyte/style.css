@@ -1,0 +1,31 @@
+:root {
+  --ks-primary: #0ea5e9; /* sky blue */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+}
+
+.text-ks {
+  color: var(--ks-primary);
+}
+
+.btn-ks {
+  background: var(--ks-primary);
+  border: none;
+}
+
+.btn-ks:hover {
+  background: #0284c7;
+}
+
+.hero {
+  background: linear-gradient(to bottom, rgba(11,18,32,.55), rgba(11,18,32,.65)),
+              url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600') center/cover no-repeat;
+  color: white;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
